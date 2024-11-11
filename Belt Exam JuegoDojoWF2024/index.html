@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Dojo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gaming<span>Dojo</span></h1>
+            <div class="currency">
+                <select>
+                    <option value="euro">Euro €</option>
+                    <option value="dolar">USD $</option>
+                    <option value="guarani">PYG ₲</option>
+                </select>
+            </div>
+            <div class="search-cart">
+                <img src="images/search-light.png" alt="Search">
+                <div class="cart">
+                    <img src="images/cart-light.png" alt="Cart">
+                    <span id="cart-count">0</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="highlights">
+                <button id="prev-banner"><img src="images/chevron-left.png" alt="Previous"></button>
+                <div class="banner">
+                    <h2 class="highlight-text">Destacado</h2>
+                    <img id="banner-img" src="images/cafe-neko.png" alt="Banner Image">
+                </div>
+                <button id="next-banner"><img src="images/chevron-right.png" alt="Next"></button>
+            </section>
+
+            <div class="products">
+                <div class="product">
+                    <img src="images/cafe-neko.png" alt="Cafe Neko: Gold Edition">
+                    <div class="details">
+                        <p>Cafe Neko: Gold Edition</p>
+                        <div class="price">
+                            <div class="discount">-20%</div>
+                            <span class="original-price">€14.98</span>
+                            <span class="current-price">€10.49</span>
+                        </div>
+                        <div class="platforms">
+                            <img src="images/windows.png" alt="Windows" id="windows-icon">
+                            <img src="images/apple.png" alt="Apple" id="apple-icon">
+                        </div>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="images/pixel-ninjas-2.png" alt="Pixel Ninjas 2">
+                    <div class="details">
+                        <p>Pixel Ninjas 2</p>
+                        <div class="price">
+                            <div class="discount">-10%</div>
+                            <span class="original-price">€8.14</span>
+                            <span class="current-price">€7.39</span>
+                        </div>
+                        <div class="platforms">
+                            <img src="images/windows.png" alt="Windows">
+                            <img src="images/apple.png" alt="Apple">
+                        </div>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="images/stonepunk.png" alt="Stonepunk 10000 BCE">
+                    <div class="details">
+                        <p>Stonepunk 10000 BCE</p>
+                        <div class="price">
+                            <div class="new">NUEVO</div>
+                            <span class="current-price">€19.99</span>
+                        </div>
+                        <div class="platforms">
+                            <img src="images/windows.png" alt="Windows">
+                            <img src="images/apple.png" alt="Apple">
+                            <img src="images/linux.png" alt="Linux" id="linux-icon">
+                        </div>
+                        <button class="buy-btn">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

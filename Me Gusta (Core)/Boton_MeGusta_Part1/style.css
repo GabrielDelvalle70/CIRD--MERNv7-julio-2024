@@ -1,0 +1,62 @@
+/*Parametros principales del cuerpo de la página*/
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/*Parametros principales del titulo del "post"*/
+.post h1{
+    display: flex;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+}
+
+/*Parametros principales del "post"*/
+.post {
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.post p{
+    display: flex;
+    font-size: 14px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.link{
+    color: blue;
+    position: relative;
+    right: 48%;
+}
+
+
+/*Parametros principales del boton "Like"*/
+button {
+    background-color: #ffcc00;
+    border: none;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    right: 5px;
+}
+
+/*Parametros principales del evento que ocurre al pasar el cursor por encima del boton "Like"*/
+button:hover {
+    background-color: #ff9900;
+}
+

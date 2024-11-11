@@ -1,0 +1,165 @@
+/*Parametros principales del cuerpo de la página*/
+body {
+    font-family: Cursive, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Parametros principales del encabezado de la pagina*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c2c54;
+    padding: 10px;
+    color: white;
+}
+
+header h1 span {
+    color: #34ace0;
+}
+
+/*Parametros del selector de moneda*/
+.currency select {
+    background-color: #34ace0;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+
+/*Parametros del carrito de compra*/
+.search-cart {
+    display: flex;
+    align-items: center;
+}
+
+.search-cart img {
+    margin-right: 20px;
+}
+
+.cart {
+    position: relative;
+}
+
+/*Parametros del contador del carrito de compra*/
+#cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #ff5252;
+    color: white;
+    border-radius: 50%;
+    padding: 3px 7px;
+    font-size: 12px;
+}
+
+/*Parametros principales de la seccion "Destacado"*/
+.highlights {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+#prev-banner, #next-banner {
+    background-color: transparent;
+    border: none;
+}
+
+.banner {
+    text-align: center;
+    position: relative;
+    height: 400px;
+    bottom: 70px;
+}
+.highlight-text{
+    display: flex;
+    position: relative;
+    right: 75px;
+    top: 25px;
+    font-size: 24px;
+}
+
+/*Parametros principales de los juegos en venta*/
+.products {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.product {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 30%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.discount {
+    color: #fff;
+    background-color: #2c2c54;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.new {
+    color: #fff;
+    background-color: #2c2c54;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.current-price {
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+.platforms img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+/*Parametros del boton "Comprar"*/
+.buy-btn {
+    background-color: #45e37c;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/*Evento que ocurre cuando el cursor se posiciona sobre el boton "Comprar"*/
+.buy-btn:hover {
+    background-color: #227093;
+}
+
+
